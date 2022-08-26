@@ -8,18 +8,38 @@ body {
 }
 
 div.qr-code {
-    border: 1px solid black;
     background: white;
     margin: 200px auto;
-    width: 20em;
-    height: 30em;
-    border-radius: 30px;
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
     text-align: center;
     padding: 20px;
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 10px;
     width: 20em;
 
+}
+
+.description {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    padding: 5px;
+    margin: 20px 5px 5px 5px;
+    font-weight: 700;
+}
+
+p {
+    position: absolute;
+    color: hsl(220, 15%, 55%);
+    font-size: 16px;
+    padding: 5px 20px 10px 20px;
+    margin: 0;
+    font-weight: 400;
 }
