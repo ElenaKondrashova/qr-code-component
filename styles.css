@@ -9,9 +9,9 @@ body {
 
 div.qr-code {
     background: white;
-    margin: 200px auto;
+    margin: 100px auto;
     width: 320px;
-    height: 520px;
+    height: 500px;
     border-radius: 20px;
     text-align: center;
     padding: 20px;
