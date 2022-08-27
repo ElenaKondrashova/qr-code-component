@@ -1,15 +1,22 @@
-body {
+* {
     padding: 0;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 div.qr-code {
     background: white;
-    margin: 100px auto;
     width: 320px;
     height: 500px;
     border-radius: 20px;
@@ -19,13 +26,7 @@ div.qr-code {
 
 img {
     border-radius: 10px;
-    width: 20em;
-
-}
-
-.description {
-    position: relative;
-    text-align: center;
+    width: 100%;
 }
 
 h1 {
@@ -36,7 +37,6 @@ h1 {
 }
 
 p {
-    position: absolute;
     color: hsl(220, 15%, 55%);
     font-size: 16px;
     padding: 5px 20px 10px 20px;
